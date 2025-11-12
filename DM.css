@@ -1,0 +1,53 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #292E49, #536976);
+  color: white;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#drum-machine {
+  background: #1f2a44;
+  padding: 30px 40px;
+  border-radius: 15px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+}
+
+.drum-pad {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  margin: 12px;
+  border-radius: 12px;
+  background: #3a5068;
+  box-shadow: 0 6px 12px #253545;
+  font-weight: 700;
+  font-size: 22px;
+  cursor: pointer;
+  user-select: none;
+  transition: background 0.3s ease, transform 0.1s ease;
+}
+
+.drum-pad:hover {
+  background: #4ea1d3;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px #4ea1d3;
+}
+
+#display {
+  margin-top: 30px;
+  font-size: 1.4rem;
+  min-height: 28px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #90caf9;
+  text-shadow: 0 0 10px rgba(78, 161, 211, 0.7);
+}
