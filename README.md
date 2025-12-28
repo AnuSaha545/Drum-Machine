@@ -54,5 +54,3 @@ A web-based Drum Machine application that enables users to create rhythmic beats
 ## 📜 License
 
 This project is open-source and available for learning and personal use.
-
-
